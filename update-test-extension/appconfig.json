@@ -7,7 +7,8 @@
   "outletPositions": [
     "WFM_ACTIVITY_SIDEBAR",
     "PP_ASSIGNMENT_DETAILS_1",
-    "PP_ASSIGNMENT_DETAILS_2"
+    "PP_ASSIGNMENT_DETAILS_2",
+    "MDM_BUSINESS_PARTNER_DETAIL_PAGE_BOTTOM"
   ],
   "optimalHeight": "320px",
   "shellNavigation": null,
