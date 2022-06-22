@@ -1,13 +1,11 @@
 {
   "name": "Parameter Showcase",
   "description": "Sample extension to showcase the parameter support for SAP FSM extensions.",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "icon": "https://raw.githubusercontent.com/scamastral/sample-fsm-extensions/master/parameter-showcase-extension/parameter-icon.png",
   "useShellSDK": true,
   "outletPositions": [
     "WFM_ACTIVITY_SIDEBAR",
-    "PP_ASSIGNMENT_DETAILS_1",
-    "PP_ASSIGNMENT_DETAILS_2",
     "MDM_BUSINESS_PARTNER_DETAIL_PAGE_BOTTOM"
   ],
   "optimalHeight": "320px",
