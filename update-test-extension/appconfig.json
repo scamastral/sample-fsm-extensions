@@ -16,7 +16,7 @@
     "allow-presentation"
   ],
   "optimalHeight": "320px",
-  "shellNavigation": null,
+  "shellNavigation": ['thisisbroken', { broken: 132, navigation: 'wat' }],
   "provider": "SAP",
   "translations": [
     {
