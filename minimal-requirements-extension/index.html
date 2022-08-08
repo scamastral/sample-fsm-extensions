@@ -23,7 +23,7 @@
 
       // Display an error message if extension does not run within shell
       if (!ShellSdk.isInsideShell()) {
-        showInfoText('Unable to reach shell eventAPI');
+        console.log('Unable to reach shell eventAPI');
       } else {
         // Initialise ShellSDK to connect with parent shell library
         const shellSdk = ShellSdk.init(parent, '*');
