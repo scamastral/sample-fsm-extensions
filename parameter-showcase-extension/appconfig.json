@@ -6,7 +6,6 @@
   "useShellSDK": true,
   "outletPositions": ["WFM_ACTIVITY_SIDEBAR"],
   "optimalHeight": "320px",
-  "shellNavigation": null,
   "provider": "SAP",
   "translations": [
     {
