@@ -1,0 +1,15 @@
+{
+  "version": "1.0.3",
+  "provider": "Aquant, Inc",
+  "outletPositions": [
+      "WFM_ACTIVITY_SIDEBAR"
+  ],
+  "name": "Intelligent Triage",
+  "lang": "en",
+  "isActive": true,
+  "icon": "https://aquant.sirv.com/Images/sap-extension/logo_white_bg.jpg",
+  "hostingType": "CUSTOM_HOSTING",
+  "description": "Aquant’s AI platform empowers your entire service team with the knowledge of your top experts, accelerating service performance.",
+  "deploymentUrl": "https://aqsap-developer-edition.na172.force.com/Aquant_For_SAP_Plugin",
+  "deploymentType": "MANUAL_DEPLOYMENT"
+}
