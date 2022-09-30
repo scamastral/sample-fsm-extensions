@@ -7,7 +7,8 @@
   "outletPositions": [
     "WFM_ACTIVITY_SIDEBAR",
     "PP_ASSIGNMENT_DETAILS_1",
-    "MDM_BUSINESS_PARTNER_DETAIL_PAGE_BOTTOM"
+    "MDM_BUSINESS_PARTNER_DETAIL_PAGE_BOTTOM",
+    "INVALID_POSITION"
   ],
   "extensionPolicies": [
     "allow-downloads",
