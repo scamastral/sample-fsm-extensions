@@ -6,9 +6,7 @@
   "useShellSDK": true,
   "outletPositions": [
     "WFM_ACTIVITY_SIDEBAR",
-    "PP_ASSIGNMENT_DETAILS_1",
-    "MDM_BUSINESS_PARTNER_DETAIL_PAGE_BOTTOM",
-    "INVALID_POSITION"
+    "PP_ASSIGNMENT_DETAILS_1"
   ],
   "extensionPolicies": [
     "allow-downloads",
