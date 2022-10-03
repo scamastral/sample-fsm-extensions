@@ -104,6 +104,12 @@
       "required": false,
       "type": "TEXT",
       "regexValidation": "^[0-9]+$"
+    },
+    {
+      "name": "superLuckyNumber",
+      "required": false,
+      "type": "TEXT",
+      "regexValidation": "^[0-9]+$"
     }
   ]
 }
