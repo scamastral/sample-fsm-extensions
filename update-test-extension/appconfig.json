@@ -6,7 +6,8 @@
   "useShellSDK": true,
   "outletPositions": [
     "WFM_ACTIVITY_SIDEBAR",
-    "PP_ASSIGNMENT_DETAILS_1"
+    "PP_ASSIGNMENT_DETAILS_1",
+    "MDM_BUSINESS_PARTNER_DETAIL_PAGE_BOTTOM"
   ],
   "extensionPolicies": [
     "allow-downloads",
@@ -101,12 +102,6 @@
     {
       "name": "luckyNumber",
       "required": false,
-      "type": "TEXT",
-      "regexValidation": "^[0-9]+$"
-    },
-    {
-      "name": "additionalUpdateNumber",
-      "required": true,
       "type": "TEXT",
       "regexValidation": "^[0-9]+$"
     }
