@@ -59,6 +59,20 @@
           "value": "Benutzerdefinierte System URL"
         }
       ]
+    },
+    {
+      "name": "enableBetaMode",
+      "type": "BOOLEAN",
+      "labelTranslations": [
+        {
+          "lang": "en",
+          "value": "Enable Beta mode"
+        },
+        {
+          "lang": "de",
+          "value": "Beta Modus aktivieren"
+        }
+      ]
     }
   ]
 }
