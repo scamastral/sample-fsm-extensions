@@ -5,95 +5,74 @@
   "icon": "https://raw.githubusercontent.com/scamastral/sample-fsm-extensions/master/parameter-showcase-extension/parameter-icon.png",
   "useShellSDK": true,
   "outletPositions": ["WFM_ACTIVITY_SIDEBAR"],
-  "optimalHeight": "320px",
   "provider": "SAP",
+  "parametersInformation": "License key is required.",
   "translations": [
     {
       "lang": "en",
-      "parametersInformation": "Please follow <a href=\"https://google.ch\">the instructions</a> to get the needed parameters. The parameters you provide here are used to enable the extension's functionality and will be used by the extension during runtime. Please make sure to follow the guidelines regarding abcde."
+      "parametersInformation": "A license key is required in order to use this extension."
     },
     {
       "lang": "de",
-      "parametersInformation": "Bitte folgen Sie den instruktionen um an die benötigten Parameter zu gelangen. Die Parameter, welche Sie hier zur Verfügung stellen, werden zum Bereitstellen der Extension Funktionalitäten benötigt und während der Laufzeit von der Extension geladen."
-    },
-    {
-      "lang": "fr",
-      "parametersInformation": "Veuillez suivre les instructions pour obtenir les paramètres nécessaires. Les paramètres que vous fournissez ici sont utilisés pour activer la fonctionnalité de l'extension et seront utilisés par l'extension pendant l'exécution."
+      "parametersInformation": "Ein Lizenzschlüssel wird für die Benutzung dieser Extension benötigt."
     }
   ],
-  "parametersInformation": "Please follow <a href=\"https://google.ch\">the instructions</a> to get the needed parameters. The parameters you provide here are used to enable the extension's functionality and will be used by the extension during runtime. Please make sure to follow the guidelines regarding abcde.",
   "parameters": [
     {
-      "name": "apiKey",
+      "name": "licenseKey",
       "required": true,
       "type": "TEXT",
       "regexValidation": "^[a-zA-Z-]+$",
       "labelTranslations": [
         {
           "lang": "en",
-          "value": "API Key"
+          "value": "License Key"
         },
         {
           "lang": "de",
-          "value": "API-Schlüssel"
+          "value": "Lizenzschlüssel"
         }
       ],
       "placeholderTranslations": [
         {
           "lang": "en",
-          "value": "API key received in the confirmation mail"
+          "value": "Enter your personal license key"
         },
         {
           "lang": "de",
-          "value": "API-Schlüssel, den Sie in der Bestätigungsmail erhalten haben"
+          "value": "Geben Sie ihren persönlichen Lizenzschlüssel ein"
         }
       ]
     },
     {
-      "name": "systemUrl",
-      "required": true,
+      "name": "customSystemUrl",
+      "required": false,
       "type": "TEXT",
       "regexValidation": null,
       "labelTranslations": [
         {
           "lang": "en",
-          "value": "System URL"
+          "value": "Custom system URL"
+        },
+        {
+          "lang": "de",
+          "value": "Benutzerdefinierte System URL"
         }
       ]
     },
     {
-      "name": "showPictures",
+      "name": "enableBetaMode",
       "type": "BOOLEAN",
       "labelTranslations": [
         {
           "lang": "en",
-          "value": "Show pictures"
+          "value": "Enable Beta mode"
         },
         {
           "lang": "de",
-          "value": "Bilder anzeigen"
+          "value": "Beta Modus aktivieren"
         }
       ]
-    },
-    {
-      "name": "enableLogging",
-      "type": "BOOLEAN",
-      "labelTranslations": [
-        {
-          "lang": "en",
-          "value": "Enable logging"
-        },
-        {
-          "lang": "de",
-          "value": "Logging aktivieren"
-        }
-      ]
-    },
-    {
-      "name": "luckyNumber",
-      "required": false,
-      "type": "TEXT",
-      "regexValidation": "^[0-9]+$"
     }
   ]
 }
