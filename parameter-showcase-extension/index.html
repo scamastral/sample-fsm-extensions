@@ -3,7 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <title>Parameter Showcase Extension</title>
-    <link href='https://unpkg.com/fundamental-styles@latest/dist/fundamental-styles.css' rel='stylesheet'>
+    <link href="https://unpkg.com/fundamental-styles@latest/dist/fundamental-styles.css" rel="stylesheet">
+    <link href='https://unpkg.com/@sap-theming/theming-base-content/content/Base/baseLib/sap_fiori_3/css_variables.css' rel='stylesheet'>
+    <link href='https://unpkg.com/fundamental-styles@{versionNumber}/dist/theming/sap_fiori_3.css' rel='stylesheet'>
     <link href="styles.css" rel="stylesheet">
   </head>
   <body>
@@ -22,7 +24,12 @@
           <th class="fd-table__cell" scope="col">Value</th>
         </tr>
       </thead>
-      <tbody id="tableBody" class="fd-table__body"></tbody>
+      <tbody id="tableBody" class="fd-table__body">
+        <tr class="fd-table__row">
+          <td class="fd-table__cell">${param.name}</td>
+          <td class="fd-table__cell">${param.value}</td>
+        </tr>
+      </tbody>
     </table>
     <script src="https://unpkg.com/fsm-shell"></script>
     <script src="helpers.js"></script>
